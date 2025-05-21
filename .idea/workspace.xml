@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="067c3f5f-9a14-4387-b6b5-c56f471756b3" name="Changes" comment="intial commit">
+    <list default="true" id="067c3f5f-9a14-4387-b6b5-c56f471756b3" name="Changes" comment="ss on failure and added comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/credentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/orders_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/orders_history.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_framework_web_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_framework_web_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/api_base_framework.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/api_base_framework.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,12 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747828218579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ss on failure and added comments">
+      <option name="closed" value="true" />
+      <created>1747830989705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747830989705</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="intial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
+    <MESSAGE value="ss on failure and added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss on failure and added comments" />
   </component>
 </project>
