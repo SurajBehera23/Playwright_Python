@@ -4,27 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="067c3f5f-9a14-4387-b6b5-c56f471756b3" name="Changes" comment="" />
+    <list default="true" id="067c3f5f-9a14-4387-b6b5-c56f471756b3" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SurajBehera23"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SurajBehera23&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SurajBehera23/Playwright_Python.git",
-    "accountId": "a3de152d-4d88-49c0-94dc-62465069b219"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SurajBehera23/Playwright_Python.git&quot;,
+    &quot;accountId&quot;: &quot;a3de152d-4d88-49c0-94dc-62465069b219&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/playwright/conftest.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/playwright/page_objects/dashboard.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/playwright/page_objects/login.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/playwright/page_objects/orders_history.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/playwright/test_framework_web_api.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/playwright/utils/api_base.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/python/test_basics.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/python/test_fix.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/python/test_network1.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -40,13 +61,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_pytest.test_sum.executor": "Run",
+    "Python tests.Python tests for test_pytest.test_sum1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Learning/Playwright_Python"
+    "last_opened_file_path": "C:/Learning/Playwright_Python/playwright",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Learning\Playwright_Python\playwright" />
+      <recent name="C:\Learning\Playwright_Python\playwright\utils" />
+      <recent name="C:\Learning\Playwright_Python\playwright\test" />
+      <recent name="C:\Learning\Playwright_Python\playwright\report" />
+      <recent name="C:\Learning\Playwright_Python\playwright\page_objects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Learning\Playwright_Python\playwright\test" />
+      <recent name="C:\Learning\Playwright_Python\playwright" />
+      <recent name="C:\Learning\Playwright_Python\playwright\utils" />
+      <recent name="C:\Learning\Playwright_Python\page_objects" />
+      <recent name="C:\Learning\Playwright_Python\python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Playwright_Python" />
       <option name="ENV_FILES" value="" />
@@ -69,11 +109,47 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for python.test_fix.test_sum" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Playwright_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;python.test_fix.test_sum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for python.test_fix.test_sum1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Playwright_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;python.test_fix.test_sum1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for python.test_fix.test_sum1" />
+        <item itemvalue="Python tests.Python tests for python.test_fix.test_sum" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +162,19 @@
       <option name="presentableId" value="Default" />
       <updated>1745594650701</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1745596015596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745596015596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
