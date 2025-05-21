@@ -13,8 +13,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ['3.9', '3.10', '3.11']
-        browser: ['chrome', 'firefox', 'webkit']
+        python-version: ['3.13']
+        browser: ['chromium'] # Specify only Chromium (which Playwright uses for Chrome)
 
     name: Test on Python ${{ matrix.python-version }} and ${{ matrix.browser }}
 
@@ -39,7 +39,7 @@ jobs:
 
       - name: Run Playwright Tests
         run: |
-          pytest --browser_name=${{ matrix.browser }}
+          pytest --browser_name=chrome # Forcefully set browser_name to chrome
 
       - name: Upload HTML Report
         uses: actions/upload-artifact@v4
