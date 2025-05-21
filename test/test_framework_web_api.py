@@ -28,3 +28,4 @@ def test_web_api(playwright: Playwright, user_credentials, browser_instance, app
     dashboard = login.login(user_name, user_password)
     order_history = dashboard.select_orders_link()
     order_history.view_order(order_id)
+    time.sleep(5)
