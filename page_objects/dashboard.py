@@ -8,6 +8,7 @@ class DashboardPage(BasePage):
         super().__init__(page)
         self.locators = DashboardPageLocators()
 
+    # Clicks the orders link and returns the OrderHistoryPage
     def select_orders_link(self):
         self.page.locator(self.locators.ORDERS_LINK).click()
         return OrderHistoryPage(self.page)

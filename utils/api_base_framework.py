@@ -26,7 +26,7 @@ class APIutils:
 
         assert response.ok
         response_body = response.json()
-        return response_body["token"]
+        return response_body["token"] # Returns auth token
 
     def create_order(self, playwright: Playwright, user_credentials):
         token = self.get_token(playwright, user_credentials)
@@ -46,4 +46,4 @@ class APIutils:
 
         response_body = response.json()
         response_order_id = response_body["orders"][0]
-        return response_order_id
+        return response_order_id # Returns order ID

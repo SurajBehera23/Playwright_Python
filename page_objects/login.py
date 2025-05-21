@@ -12,6 +12,7 @@ class LoginPage(BasePage):
     def navigate(self):
         super().navigate_to(self.app_url)
 
+    # Fills the logIn form
     def login(self, user_email: str, user_password: str):
         self.page.wait_for_selector(self.locators.EMAIL_INPUT)
         self.page.locator(self.locators.EMAIL_INPUT).fill(user_email)

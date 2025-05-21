@@ -8,6 +8,7 @@ class OrderHistoryPage(BasePage):
         self.locators = OrderHistoryPageLocators()
 
     def view_order(self, order_id_from_api):
+        # Finds the order row and clicks the view button
         row = self.page.locator(self.locators.ORDER_ROW).filter(has_text=order_id_from_api)
         row.get_by_role("button").filter(has_text=self.locators.VIEW_BUTTON_TEXT).click()
 
@@ -17,5 +18,5 @@ class OrderHistoryPage(BasePage):
 
         print(f"UI Order ID: {order_id_ui}")
         print(f"API Order ID: {order_id_from_api}")
-
+        # Asserts that the order ID in the UI matches the one from the API
         assert order_id_ui.strip() == order_id_from_api, f"Order ID mismatch: UI={order_id_ui}, API={order_id_from_api}"

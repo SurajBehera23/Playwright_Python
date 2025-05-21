@@ -19,10 +19,10 @@ user_credential_list = test_data["user_credentials"]
 def test_web_api(playwright: Playwright, user_credentials, browser_instance, app_url):
     user_name = user_credentials["userEmail"]
     user_password = user_credentials["userPassword"]
-
+    #Creates order from API
     api_utils = APIutils()
     order_id = api_utils.create_order(playwright, user_credentials)
-
+    #UI flow
     login = LoginPage(browser_instance, app_url)
     login.navigate()
     dashboard = login.login(user_name, user_password)
