@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="067c3f5f-9a14-4387-b6b5-c56f471756b3" name="Changes" comment="added README.md">
+    <list default="true" id="067c3f5f-9a14-4387-b6b5-c56f471756b3" name="Changes" comment="modified conftest.py for headed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/failure_screenshot_test_web_api[user_credentials1].png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/test_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747844095997</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modified conftest.py for headed">
+      <option name="closed" value="true" />
+      <created>1747902944187</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747902944187</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,6 +258,7 @@
     <MESSAGE value="ss on failure and added comments" />
     <MESSAGE value="Add GitHub Actions workflow for Playwright tests" />
     <MESSAGE value="added README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added README.md" />
+    <MESSAGE value="modified conftest.py for headed" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified conftest.py for headed" />
   </component>
 </project>
