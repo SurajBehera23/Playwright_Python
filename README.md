@@ -61,13 +61,13 @@ Playwright_Python/
 **Run all tests with default browser:**
 
 ```
-pytest test/test_framework_web_api.py
+pytest -rA
 ```
 Run with specific browser:
 ```
 pytest --browser_name=firefox
 ```
-Run smoke tests:
+Run smoke marked tests:
 ```
 pytest -m smoke
 ```
@@ -75,7 +75,7 @@ pytest -m smoke
 To run tests in parallel (requires `pytest-xdist`):
 ```
 pip install pytest-xdist
-pytest -n auto
+pytest -n 2
 ```
 You can also combine it with browser selection:
 ```
