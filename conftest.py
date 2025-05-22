@@ -48,8 +48,7 @@ def app_url(request):
 @pytest.fixture(scope="function")
 def browser_instance(playwright: Playwright, request):
     browser_name = request.config.getoption("browser_name").lower()
-
-    headless = True  # Force headless in CI
+    headless = not request.config.getoption("headed")  # Use the built-in --headed
 
     if browser_name == "chrome":
         browser = playwright.chromium.launch(headless=headless)
